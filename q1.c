@@ -104,7 +104,7 @@ int main() {
                  scanf("%d", &a);
                  printf("Enter the second number :- ");
                  scanf("%d", &b);
-                 if(a>b) {
+                 if(a>=b) {
                         if(b!=0) {
                             if(a!=0) {
                                 printf("Division of %d and %d is = %.2f", a, b, divi(a, b));
@@ -135,7 +135,7 @@ int main() {
                  scanf("%d", &a);
                  printf("Enter the second number :- ");
                  scanf("%d", &b);
-                 if(a>b) {
+                 if(a>=b) {
                         if(b!=0) {
                             if(a!=0) {
                                 printf("Division of %d and %d is = %d", a, b, mol(a, b));
